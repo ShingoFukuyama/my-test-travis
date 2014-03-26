@@ -24,13 +24,16 @@
 (require 'ert)
 
 (ert-deftest test1 ()
-  (should (equal (/ 10 2) 5)))          ; => test1
+  (should (equal (/ 10 2) 5)))
 
 (ert-deftest test2 ()
-  (should (equal (fff-f01) 99)))        ; => test2
+  (should (equal (fff-f01) 99)))
 
 (ert-deftest test3 ()
-  (should (equal fff-v01 99)))          ; => test3
+  (should (equal fff-v01 99)))
+
+(ert-deftest test4 ()
+  (should-not (equal fff-v01 99)))
 
 (provide 'my-travis-test)
 ;;; my-travis-test.el ends here
