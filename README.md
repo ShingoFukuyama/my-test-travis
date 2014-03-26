@@ -2,4 +2,5 @@
 
 aaa
 
-[![Build Status](https://travis-ci.org/ShingoFukuyama/my-travis-test.png?branch=master)](https://travis-ci.org/ShingoFukuyama/my-travis-test)
+[![Build Status](https://secure.travis-ci.org/ShingoFukuyama/my-travis-test.png?branch=master,staging,production)](http://travis-ci.org/ShingoFukuyama/my-travis-test)
+
